@@ -127,5 +127,120 @@ O notebook está organizado nas seguintes etapas:
 
 ![Potengi, Zona Norte](images/mapa.svg)
 
-### Grafo da distribuição de grau
+### Gráfico da distribuição por grau da rede
+
+![Distribuição por grau](images/distribuição%20de%20grau%20da%20rede.png)
+
+### Hubs
+
+| ID do Nó | Grau |
+| :--- | :---: |
+| 558387303 | 5 |
+| 9457010523 | 5 |
+
+
+
+### Betweenness Centrality
+
+![Betweenness](images/betweenness.png)
+
+### Closeness Centrality 
+
+![Closeness](images/closeness.png)
+
+### Histograma das distribuições de Betweenness e Closeness
+
+![Histogramas de close e between](images/histograma%20de%20betweenness%20e%20closeness.png)
+
+### K-core
+
+* **Maior valor de $k$-core encontrado:** 2
+* **Total de nós no núcleo mais interno ($k=2$):** 1.399
+
+## Visualização Geográfica
+
+### Tamanho do nó proporcional ao grau e cor associada ao Core Number
+
+![tamanho grau e cor do core](images/tamanho_grau_cor_core_number_geo.svg)
+
+### Destaque dos nós com maior Betweenness
+
+![destaque between](images/destaque_betweenness_geo.svg)
+
+### K-core - Core number = 2
+
+![core number](images/core_number_2_geo.svg)
+
+
+### Top 10% nós por grau
+
+![top10](images/top_10_geo.svg)
+
+## Analise da visualização
+
+Sobre o core number (cor):
+* A rede é dominada por nós azuis (core 2) — quase toda a rede forma um núcleo
+coeso e bem conectado
+* Os nós vermelhos (core 1) são raríssimos e aparecem nas bordas e extremidades
+da rede — são ruas com saída única, becos ou vias de acesso periférico
+* Isso indica que o bairro de Potengi tem uma malha viária bastante integrada, sem
+muitas vias isoladas
+
+Sobre o grau (tamanho):
+
+* A maioria dos nós tem tamanho similar e pequeno — grau predominantemente baixo
+(2 ou 3 conexões por cruzamento)
+* Nós maiores aparecem espalhados pela rede sem concentração clara em uma
+região específica — os cruzamentos mais conectados não formam um centro
+definido
+* A parte superior da rede parece ter nós ligeiramente maiores, sugerindo uma área
+com cruzamentos mais complexos
+
+Sobre o betweenness (cor):
+
+* Nós alaranjados/dourados escuros têm alto betweenness — são os cruzamentos
+que mais aparecem nos caminhos entre dois pontos quaisquer da rede
+* Nós brancos/amarelos claros têm betweenness baixo — cruzamentos locais,
+usados só por quem mora perto
+* Os nós de alto betweenness formam corredores diagonais visíveis na rede — isso
+indica as vias principais do bairro, as que mais concentram fluxo de passagem
+
+Distribuição espacial:
+
+* Os nós de maior grau estão espalhados por todo o bairro — não há uma
+concentração central, o que confirma a homogeneidade da rede já observada antes
+* As bordas do bairro também têm nós de alto grau, especialmente na região superior
+e direita — provavelmente onde há conexões com outros bairros
+
+O que esses nós representam:
+
+* São os cruzamentos mais complexos do bairro — onde mais ruas se encontram
+* Mesmo sendo os top 10%, os nós parecem pequenos e uniformes — o que indica
+que a diferença de grau entre eles não é tão grande, a rede é realmente homogênea
+
+
+
+## Visualização estrutural
+
+### Tamanho do nó proporcional ao grau e cor associada ao Core Number
+
+![tamanho grau e cor do core](images/tamanho_grau_cor_core_number.svg)
+
+### Destaque dos nós com maior Betweenness
+
+![destaque between](images/destaque_betweenness.svg)
+
+### K-core - Core number = 2
+
+![core number](images/core_number_2.svg)
+
+### Top 10% nós por grau
+
+![top10](images/top_10.svg)
+
+## Analise da visualização
+
+
+
+## Análises dos resultados
 
