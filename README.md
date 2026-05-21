@@ -244,3 +244,8 @@ que a diferença de grau entre eles não é tão grande, a rede é realmente hom
 
 ## Análises dos resultados
 
+### Os nós com maior grau coincidem com os nós de maior betweenness?
+
+Os nós com maior grau não coincidem com os nós de maior betweenness (intermediação). Numa malha viária, o grau de um nó é limitado pela geometria física das esquinas (quase todos os cruzamentos têm apenas 3 ou 4 conexões directas), gerando centenas de nós empatados com o mesmo grau máximo. Em contrapartida, a centralidade de betweenness destaca a importância macroscópica e estrutural do nó na cidade, identificando pontes, viadutos ou avenidas principais que canalizam o tráfego global e funcionam como caminhos mais curtos entre diferentes bairros, independentemente de terem muitas ou poucas ruas conectadas directamente a eles.
+
+### O núcleo identificado pelo k-core coincide com os principais hubs?
