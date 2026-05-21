@@ -212,7 +212,7 @@ concentração central, o que confirma a homogeneidade da rede já observada ant
 * As bordas do bairro também têm nós de alto grau, especialmente na região superior
 e direita — provavelmente onde há conexões com outros bairros
 
-O que esses nós representam:
+O que os nós no top 10% representam:
 
 * São os cruzamentos mais complexos do bairro — onde mais ruas se encontram
 * Mesmo sendo os top 10%, os nós parecem pequenos e uniformes — o que indica
