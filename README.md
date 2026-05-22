@@ -4,7 +4,7 @@ Ferramenta para análise de redes viárias urbanas a partir de dados do OpenStre
 Nesse trabalho foi analisada a rede viária do bairro **Potengi, Natal/RN**, modelada como um grafo não-direcionado de vias de tráfego.
 
 ## Link para pasta no loom com os videos:
-[Videos](https://loom.com/share/folder/3f6b9143d2b8457384bcd49c54765f9b)
+https://loom.com/share/folder/3f6b9143d2b8457384bcd49c54765f9b
 
 ### Justificativa da escolha da região:
 
