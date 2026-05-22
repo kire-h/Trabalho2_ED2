@@ -152,6 +152,10 @@ O notebook está organizado nas seguintes etapas:
 
 ![Histogramas de close e between](images/histograma%20de%20betweenness%20e%20closeness.png)
 
+### Visualização dos Hubs e gargalos
+
+![hubs e gargalos](images/hubs%20e%20gargalos.png)
+
 ### K-core
 
 * **Maior valor de $k$-core encontrado:** 2
@@ -170,7 +174,6 @@ O notebook está organizado nas seguintes etapas:
 ### K-core - Core number = 2
 
 ![core number](images/core_number_2_geo.svg)
-
 
 ### Top 10% nós por grau
 
