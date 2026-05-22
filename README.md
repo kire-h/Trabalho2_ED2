@@ -81,7 +81,6 @@ O notebook está organizado nas seguintes etapas:
 ```text
 ├── Trabalho_ED2.ipynb        # Notebook principal de análise
 ├── rede_urbana.graphml       # Grafo exportado com atributos (padrão NetworkX)
-├── rede_urbana_2.graphml     # Grafo exportado compatível com Gephi
 ├── images                    # Pasta com as imagens utilizadas no README.md
 └── README.md                 # Documentação principal do repositório
 ```
