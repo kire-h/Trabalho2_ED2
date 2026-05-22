@@ -265,3 +265,13 @@ A malha urbana analisada é fortemente heterogênea e apresenta uma clara concen
 ### Os resultados obtidos fazem sentido considerando o conhecimento urbano da região escolhida?
 
 Sim, os resultados fazem total sentido e refletem com precisão a realidade do bairro Potengi na zona norte de Natal. O eixo modelado da Avenida Doutor João Medeiros Filho (RN-302) é, de fato, uma importante via de tráfego da região, conectando a zona norte de natal, que é predominantemente mais residencial, à Ponte Newton Navarro e a Ponte de Igapó e ao restante da cidade. A identificação de forte concentração estrutural no modelo coincide com o histórico problema de isolamento e dependência dessa via única para o deslocamento diário da população, validando o grafo como uma representação fiel dos gargalos e da vulnerabilidade na infraestrutura de mobilidade local.
+
+---
+
+## Principais Conclusões Obtidas
+
+Com base no cálculo das métricas de redes complexas e na comparação entre as visualizações geográficas e estruturais, destacam-se as seguintes conclusões sobre a malha viária do bairro Potengi:
+
+* **A métrica de Grau é insuficiente para vias urbanas:** Devido às restrições geométricas das ruas (cruzamentos de 3 ou 4 vias), o Grau falha em diferenciar ruas residenciais sem saída de grandes avenidas. Para análises de tráfego, a **Betweenness Centrality** (Intermediação) mostrou-se a métrica definitiva para encontrar os verdadeiros gargalos estruturais.
+* **Forte dependência de corredores arteriais:** A rede apresenta uma clara concentração estrutural no eixo da **Avenida Doutor João Medeiros Filho (RN-302)** e suas aproximações. Esses nós funcionam como "funis" obrigatórios que canalizam praticamente todo o fluxo de saída e entrada do bairro.
+* **Fidelidade do modelo à realidade:** O grafo gerado a partir do OpenStreetMap validou matematicamente o conhecimento empírico diário dos moradores da Zona Norte. O modelo conseguiu diagnosticar com precisão a dependência histórica de poucas vias primárias e a vulnerabilidade da região a congestionamentos em seus pontos de estrangulamento.
