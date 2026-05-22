@@ -80,7 +80,7 @@ O notebook está organizado nas seguintes etapas:
 
 ```text
 ├── Trabalho_ED2.ipynb        # Notebook principal de análise
-├── rede_urbana.graphml       # Grafo exportado com atributos (padrão NetworkX)
+├── rede_urbana.graphml       # Grafo exportado com atributos
 ├── images                    # Pasta com as imagens utilizadas no README.md
 └── README.md                 # Documentação principal do repositório
 ```
@@ -88,9 +88,9 @@ O notebook está organizado nas seguintes etapas:
 
 ## 🔬 Abrindo no Gephi
 
-1. Gere o arquivo `rede_urbana_2.graphml` rodando o notebook
+1. Gere o arquivo `rede_urbana.graphml` rodando o notebook
 2. Abra o Gephi
-3. **File → Open** → selecione o arquivo `rede_urbana_2.graphml`
+3. **File → Open** → selecione o arquivo `rede_urbana.graphml`
 4. O grafo será carregado com os atributos de latitude, longitude, grau, betweenness, closeness e core number já tipados corretamente
 
 > O notebook corrige automaticamente os tipos dos atributos no `.graphml` (double, int) para garantir compatibilidade total com o Gephi.
