@@ -3,6 +3,9 @@
 Ferramenta para análise de redes viárias urbanas a partir de dados do OpenStreetMap, com cálculo de métricas de centralidade, identificação de hubs, decomposição K-Core e exportação para o Gephi.
 Nesse trabalho foi analisada a rede viária do bairro **Potengi, Natal/RN**, modelada como um grafo não-direcionado de vias de tráfego.
 
+## Link para pasta no loom com os videos:
+[Videos](https://loom.com/share/folder/3f6b9143d2b8457384bcd49c54765f9b)
+
 ### Justificativa da escolha da região:
 
 Os alunos moram na zona norte e estudaram no IFZN localizado nesse bairro.
